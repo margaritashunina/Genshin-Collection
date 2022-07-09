@@ -1,0 +1,37 @@
+{
+    "artifacts": [
+        {
+            "set": "shimenawa",
+            "type": "plume",
+            "main-stat": "ATK: 311",
+            "sub-stats": [
+                "CR: 3.9",
+                "ATK%: 16.3",
+                "CD: 19.4",
+                "ER: 4.5"
+            ]
+        },
+        {
+            "set": "clam",
+            "type": "circlet", 
+            "main-stat": "CR: 31.1",
+            "sub-stats": [
+                "CD: 24.1",
+                "ATK%: 9.9", 
+                "ATK: 33",
+                "DEF%: 5.1"
+            ]
+        },
+        {
+            "set": "tenacity",
+            "type": "sands",
+            "main-stat": "ATK%: 46.6",
+            "sub-stats": [
+                "CR: 6.2",
+                "CD: 17.9",
+                "EM: 37",
+                "HP: 269"
+            ]
+        }
+    ]
+}
