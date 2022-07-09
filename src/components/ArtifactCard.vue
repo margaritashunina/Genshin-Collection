@@ -1,12 +1,12 @@
 <script>
     export default{
         props: {
-            artifact: Object
+            info: Object
         },
         data() {
             return {
                 selected: false,
-                bg_image_url: "../src/assets/artifact_icons/" + this.artifact.set + "-" + this.artifact.type + ".webp"
+                bg_image_url: "../src/assets/artifact_icons/" + this.info.set + "-" + this.info.type + ".webp"
             };
         },
         methods: {
@@ -28,10 +28,10 @@
                 text-sm text-center text-slate-700 font-medium
                 ">
             <p>
-                {{ artifact['main-stat'] }}
+                {{ info['main-stat'] }}
             </p>
             <div class="w-full columns-2 gap-0">
-                <p v-for="stat in artifact['sub-stats']">
+                <p v-for="stat in info['sub-stats']">
                     {{ stat }}
                 </p>
             </div>

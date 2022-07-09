@@ -1,7 +1,7 @@
 <script>
     export default{
         props: {
-            character: Object
+            info: Object
         },
         data(){
             let className = {
@@ -13,7 +13,7 @@
                 "hydro"  : "bg-hydro",
             }
             return {
-                backgroundPic: className[this.character.element],
+                backgroundPic: className[this.info.element],
                 selected: false
             }
         },
@@ -38,15 +38,15 @@
         >
             <div class="flex flex-col items-center justify-center h-full">
                 <p class="text-base text-center text-slate-700">
-                    {{ character.name }}
+                    {{ info.name }}
                 </p>
 
                 <p  v-if="selected" class="text-lg text-center text-slate-700 font-bold">
-                    {{ character.lvl }} | {{ 'C' + character.constellation.toString() }}
+                    {{ info.lvl }} | {{ 'C' + info.constellation.toString() }}
                 </p>
             </div>
 
-            <img :src="character['mini-pic']" class="aspect-square">
+            <img :src="info['mini-pic']" class="aspect-square">
         </div>
     </div>
     

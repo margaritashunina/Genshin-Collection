@@ -1,12 +1,12 @@
 <script>
     export default{
         props: {
-            weapon: Object
+            info: Object
         },
         data() {
             return {
                 selected: false,
-                bg_image_url: "../src/assets/weapon_icons/" + this.weapon.name + ".webp"
+                bg_image_url: "../src/assets/weapon_icons/" + this.info.name + ".webp"
             }
         },
         methods: {
@@ -27,8 +27,8 @@
                 flex flex-col items-center justify-center
                 text-sm text-center text-slate-700 font-medium
                 ">
-            <p>lvl: {{ weapon.lvl }}</p>
-            <p>R1: {{ weapon.refinement }}</p>
+            <p>lvl: {{ info.lvl }}</p>
+            <p>R1: {{ info.refinement }}</p>
         </div>
     </div>
 </template>
