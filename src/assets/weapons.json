@@ -3,47 +3,56 @@
         {
             "name": "jade_winged_spear",
             "lvl": 90,
-            "refinement": 1
+            "refinement": 1,
+            "equipped": "Xiao"
         },
         {
             "name": "the_catch", 
             "lvl": 90, 
-            "refinement": 5
+            "refinement": 5, 
+            "equipped": "Raiden"
         }, 
         {
             "name": "deathmatch", 
             "lvl": 90, 
-            "refinement": 1
+            "refinement": 1,
+            "equipped": "Xiangling"
         }, 
         {
             "name": "skyward_pride",
             "lvl": 90, 
-            "refinement": 1
+            "refinement": 1,
+            "equipped": "Razor"
         },
         {
             "name": "rust", 
             "lvl": 90, 
-            "refinement": 5
+            "refinement": 5,
+            "equipped": "Tartaglia"
         },
         {
             "name": "hamayumi",
             "lvl": 90, 
-            "refinement": 1
+            "refinement": 1, 
+            "equipped": "Ganyu"
         },
         {
             "name": "serpent_spine",
             "lvl": 90, 
-            "refinement": 1
+            "refinement": 1,
+            "equipped": "Beidou"
         }, 
         {
             "name": "skyward_blade",
             "lvl": 90,
-            "refinement": 1
+            "refinement": 1,
+            "equipped": "Bennett"
         }, 
         {
             "name": "blackcliff_slasher",
             "lvl": 90, 
-            "refinement": 1
+            "refinement": 1,
+            "equipped": "Diluc"
         }
     ]
 }

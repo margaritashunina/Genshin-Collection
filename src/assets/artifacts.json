@@ -9,7 +9,8 @@
                 "ATK%: 16.3",
                 "CD: 19.4",
                 "ER: 4.5"
-            ]
+            ],
+            "equipped": "Ganyu"
         },
         {
             "set": "clam",
@@ -20,7 +21,8 @@
                 "ATK%: 9.9", 
                 "ATK: 33",
                 "DEF%: 5.1"
-            ]
+            ],
+            "equipped": "Ganyu"
         },
         {
             "set": "tenacity",
@@ -31,7 +33,56 @@
                 "CD: 17.9",
                 "EM: 37",
                 "HP: 269"
-            ]
+            ],
+            "equipped": "Zhongli"
+        },
+        {
+            "set": "clam",
+            "type": "circlet",
+            "main-stat": "CR 31.1",
+            "sub-stats": [
+                "CD: 13.2",
+                "ATK%: 14",
+                "ATK: 31",
+                "DEF: 21"
+            ],
+            "equipped": "Jean"
+        },
+        {
+            "set": "emblem",
+            "type": "flower",
+            "main-stat": "HP: 4780",
+            "sub-stats": [
+                "CD: 14",
+                "ATK%: 8.7",
+                "CR: 6.2",
+                "ER: 12.3"
+            ],
+            "equipped": "Raiden"
+        },
+        {
+            "set": "emblem",
+            "type": "plume",
+            "main-stat": "ATK: 311",
+            "sub-stats": [
+                "CR: 7.4",
+                "CD: 7.8",
+                "ER: 22",
+                "DEF: 39"
+            ],
+            "equipped": "Raiden"
+        },
+        {
+            "set": "heart",
+            "type": "plume",
+            "main-stat": "ATK: 311",
+            "sub-stats": [
+                "CD: 12.4",
+                "CR: 11.7",
+                "ER: 9.1",
+                "HP%: 4.7"
+            ],
+            "equipped": "Tartaglia"
         }
     ]
 }

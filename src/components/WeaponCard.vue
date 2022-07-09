@@ -30,5 +30,7 @@
             <p>lvl: {{ info.lvl }}</p>
             <p>R1: {{ info.refinement }}</p>
         </div>
+        <img v-else :src="'../src/assets/character_eq_icons/' + info.equipped + '.webp'"
+                    class="w-1/2"/>
     </div>
 </template>
