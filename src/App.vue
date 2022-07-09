@@ -2,20 +2,24 @@
   import CardBase from './components/CardBase.vue'
   import CharacterCard from './components/CharacterCard.vue'
   import ArtifactCard from './components/ArtifactCard.vue'
+  import WeaponCard from './components/WeaponCard.vue'
   
   import characterJson from './assets/characters.json'
   import artifactJson from './assets/artifacts.json'
+  import weaponJson from './assets/weapons.json'
 
   export default {
     components: {
     CharacterCard,
     ArtifactCard,
-    CardBase
+    CardBase,
+    WeaponCard
 },
     data() {
       return {
         characterJson: characterJson,
-        artifactJson: artifactJson
+        artifactJson: artifactJson, 
+        weaponJson: weaponJson
       }
     }
   }
@@ -31,6 +35,12 @@
   <div class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-9 gap-4 m-2">
     <CardBase v-for="art in artifactJson.artifacts">
       <ArtifactCard :artifact="art"/>
+    </CardBase>
+  </div>
+
+  <div class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-9 gap-4 m-2">
+    <CardBase v-for="weap in weaponJson.weapons">
+      <WeaponCard :weapon="weap"/>
     </CardBase>
   </div>
 </template>

@@ -20,7 +20,6 @@
         methods: {
             toggleSelected() {
                 this.selected = !this.selected;
-                console.log(this.selected);
             }
         }
     }

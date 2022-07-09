@@ -1,0 +1,49 @@
+{
+    "weapons": [
+        {
+            "name": "jade_winged_spear",
+            "lvl": 90,
+            "refinement": 1
+        },
+        {
+            "name": "the_catch", 
+            "lvl": 90, 
+            "refinement": 5
+        }, 
+        {
+            "name": "deathmatch", 
+            "lvl": 90, 
+            "refinement": 1
+        }, 
+        {
+            "name": "skyward_pride",
+            "lvl": 90, 
+            "refinement": 1
+        },
+        {
+            "name": "rust", 
+            "lvl": 90, 
+            "refinement": 5
+        },
+        {
+            "name": "hamayumi",
+            "lvl": 90, 
+            "refinement": 1
+        },
+        {
+            "name": "serpent_spine",
+            "lvl": 90, 
+            "refinement": 1
+        }, 
+        {
+            "name": "skyward_blade",
+            "lvl": 90,
+            "refinement": 1
+        }, 
+        {
+            "name": "blackcliff_slasher",
+            "lvl": 90, 
+            "refinement": 1
+        }
+    ]
+}
