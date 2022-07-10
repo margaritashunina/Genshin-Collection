@@ -12,8 +12,7 @@ module.exports = {
         'electro': "url('../src/assets/elements/electro.svg')",
         'pyro': "url('../src/assets/elements/pyro.svg')",
         'hydro': "url('../src/assets/elements/hydro.svg')",
-        'cryo': "url('../src/assets/elements/cryo.svg')",
-        'shimenawa-flower': "url('https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Item_Entangling_Bloom.png')"
+        'cryo': "url('../src/assets/elements/cryo.svg')"
       }
     },
   },

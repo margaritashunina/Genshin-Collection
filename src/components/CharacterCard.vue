@@ -37,7 +37,7 @@
             :class="(selected? 'backdrop-blur' : '')"
         >
             <div class="flex flex-col items-center justify-center h-full">
-                <p class="text-base text-center text-slate-700">
+                <p class="text-base text-center text-slate-700 font-extrabold">
                     {{ info.name }}
                 </p>
 

@@ -25,11 +25,11 @@
             class="backdrop-blur h-full
                 bg-slate-50 bg-opacity-40
                 flex flex-col items-center justify-center
-                text-sm text-center text-slate-700 font-medium">
-            <p>
+                text-sm text-center text-slate-700">
+            <p class="font-extrabold">
                 {{ info['main-stat'] }}
             </p>
-            <div class="w-full columns-2 gap-0">
+            <div class="w-full columns-2 gap-0 font-bold">
                 <p v-for="stat in info['sub-stats']">
                     {{ stat }}
                 </p>

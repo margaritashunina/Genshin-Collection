@@ -3,6 +3,7 @@
   import CharacterCard from './components/CharacterCard.vue'
   import ArtifactCard from './components/ArtifactCard.vue'
   import WeaponCard from './components/WeaponCard.vue'
+  import PlayerCard from './components/PlayerCard.vue'
   
   import characterJson from './assets/characters.json'
   import artifactJson from './assets/artifacts.json'
@@ -13,11 +14,12 @@
 
   export default {
     components: {
-      CharacterCard,
-      ArtifactCard,
-      CardBase,
-      WeaponCard
-    },
+    CharacterCard,
+    ArtifactCard,
+    CardBase,
+    WeaponCard,
+    PlayerCard
+},
     data() {
       return {
         tabs: [
@@ -41,22 +43,26 @@
 </script>
 
 <template>
-  <div class="w-screen flex flex-row justify-center gap-4">
-    <button v-for="tab in tabs"
-            :key="tab"
-            :id="tab"
-            @click="tabHandler"
-            class="text-lg text-center text-slate-700 font-bold
-                  hover:underline hover:decoration-2">
-      {{ tab }}
-    </button>
+  <div class="flex flex-col items-center justify-center gap-4 w-full my-4">
+    <PlayerCard />
+    <div class="flex flex-row justify-center gap-4">
+      <button v-for="tab in tabs"
+              :key="tab"
+              :id="tab"
+              @click="tabHandler"
+              class="text-2xl text-center text-slate-700 font-extrabold
+                    hover:underline hover:decoration-2">
+        {{ tab }}
+      </button>
+    </div>
+    
+    <div :class="currentGridLayout">
+      <CardBase v-for="item in currentJson.entries">
+        <component :is="currentTab" :info="item"/>
+      </CardBase>
+    </div>
   </div>
   
-  <div :class="currentGridLayout">
-    <CardBase v-for="item in currentJson.entries">
-      <component :is="currentTab" :info="item"/>
-    </CardBase>
-  </div>
 </template>
 
 <style>

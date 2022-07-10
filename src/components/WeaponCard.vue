@@ -25,10 +25,10 @@
             class="backdrop-blur h-full
                 bg-slate-50 bg-opacity-40
                 flex flex-col items-center justify-center
-                text-sm text-center text-slate-700 font-medium
+                text-xl text-center text-slate-700 font-extrabold
                 ">
-            <p>lvl: {{ info.lvl }}</p>
-            <p>R1: {{ info.refinement }}</p>
+            <p>LVL: {{ info.lvl }}</p>
+            <p>R{{ info.refinement }}</p>
         </div>
         <img v-else :src="'../src/assets/character_eq_icons/' + info.equipped + '.webp'"
                     class="w-1/2"/>

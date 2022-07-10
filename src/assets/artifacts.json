@@ -83,6 +83,174 @@
                 "HP%: 4.7"
             ],
             "equipped": "Tartaglia"
+        },
+        {
+            "set": "vermillion",
+            "type": "flower",
+            "main-stat": "HP: 4780",
+            "sub-stats": [
+                "CR: 6.2",
+                "CD: 32.6",
+                "ATK%: 5.3",
+                "HP%: 5.8"
+            ],
+            "equipped": "Xiao"
+        },
+        {
+            "set": "vermillion",
+            "type": "plume",
+            "main-stat": "ATK: 311",
+            "sub-stats": [
+                "DEF%: 20.4",
+                "ATK%: 15.2",
+                "CD: 5.4",
+                "CR: 2.7"
+            ],
+            "equipped": "Xiao"
+        },
+        {
+            "set": "vermillion",
+            "type": "sands",
+            "main-stat": "ATK%: 46.6",
+            "sub-stats": [
+                "ATK: 51",
+                "CD: 21",
+                "EM: 21",
+                "HP%: 5.3"
+            ],
+            "equipped": "Xiao"
+        },
+        {
+            "set": "vermillion",
+            "type": "goblet",
+            "main-stat": "Anemo: 46.6",
+            "sub-stats": [
+                "CD: 17.1",
+                "ER: 14.9",
+                "HP: 239",
+                "ATK: 18"
+            ],
+            "equipped": "Xiao"
+        },
+        {
+            "set": "viridescent",
+            "type": "plume",
+            "main-stat": "ATK: 311",
+            "sub-stats": [
+                "DEF: 21",
+                "CR: 3.5",
+                "ER: 15.5",
+                "CD: 24.9"
+            ],
+            "equipped": "Jean"
+        },
+        {
+            "set": "viridescent",
+            "type": "sands",
+            "main-stat": "ATK%: 46.6",
+            "sub-stats": [
+                "DEF: 23",
+                "CD: 20.2", 
+                "ER: 10.4",
+                "EM: 37"
+            ],
+            "equipped": "Jean"
+        },
+        {
+            "set": "crimson",
+            "type": "sands",
+            "main-stat": "ATK%: 46.6",
+            "sub-stats": [
+                "ER: 16.2",
+                "CR: 8.9",
+                "CD: 5.4",
+                "ATK: 16"
+            ],
+            "equipped": "Diluc"
+        },
+        {
+            "set": "crimson",
+            "type": "flower",
+            "main-stat": "HP: 4780",
+            "sub-stats": [
+                "DEF: 23",
+                "ER: 11.7",
+                "CD: 19.4",
+                "CR: 7.0"
+            ],
+            "equipped": "Diluc"
+        },
+        {
+            "set": "crimson",
+            "type": "plume",
+            "main-stat": "ATK: 311",
+            "sub-stats": [
+                "CD: 7.0",
+                "CR: 8.9",
+                "ER: 16.8",
+                "DEF%: 5.1"
+            ],
+            "equipped": "Diluc"
+        },
+        {
+            "set": "thundering",
+            "type": "flower",
+            "main-stat": "HP: 4780",
+            "sub-stats": [
+                "ER: 6.5",
+                "CR: 2.7",
+                "ATK%: 20.4",
+                "CD: 13.2"
+            ],
+            "equipped": "Keqing"
+        },
+        {
+            "set": "thundering",
+            "type": "flower",
+            "main-stat": "HP: 4780",
+            "sub-stats": [
+                "CD: 7.8",
+                "ATK%: 5.8",
+                "CR: 8.2",
+                "ATK: 47"
+            ],
+            "equipped": "Fischl"
+        },
+        {
+            "set": "noblesse",
+            "type": "flower",
+            "main-stat": "HP: 4780",
+            "sub-stats": [
+                "DEF: 39",
+                "ATK%: 5.8",
+                "CD: 19.4",
+                "CR: 9.3"
+            ],
+            "equipped": "Beidou"
+        },
+        {
+            "set": "chivalry", 
+            "type": "flower",
+            "main-stat": "HP: 4780",
+            "sub-stats": [
+                "ATK%: 4.7",
+                "CR: 10.5",
+                "EM: 16",
+                "CD: 26.4"
+            ],
+            "equipped": "Razor"
+        },
+        {
+            "set": "emblem",
+            "type": "plume",
+            "main-stat": "ATK: 311",
+            "sub-stats": [
+                "CD: 21",
+                "CR: 3.1",
+                "EM: 40",
+                "ER: 9.7"
+            ],
+            "equipped": "Xiangling"
         }
     ]
 }
