@@ -4,99 +4,145 @@
             "name": "Zhongli",
             "lvl": 90,
             "constellation": 0,
-            "element": "geo",
-            "mini-pic": "https://static.wikia.nocookie.net/gensin-impact/images/c/c2/Character_Zhongli_Thumb.png"
+            "element": "geo"
         },
         {
             "name": "Xiao",
             "lvl": 90,
             "constellation": 0,
-            "element": "anemo",
-            "mini-pic": "https://static.wikia.nocookie.net/gensin-impact/images/b/b9/Character_Xiao_Thumb.png"
+            "element": "anemo"
         },
         {
             "name": "Albedo",
             "lvl": 90,
             "constellation": 0,
-            "element": "geo",
-            "mini-pic": "https://static.wikia.nocookie.net/gensin-impact/images/0/00/Character_Albedo_Thumb.png"
+            "element": "geo"
         },
         {
             "name": "Jean",
             "lvl": 90,
             "constellation": 1,
-            "element": "anemo",
-            "mini-pic": "https://static.wikia.nocookie.net/gensin-impact/images/8/89/Character_Jean_Thumb.png"
+            "element": "anemo"
         },
         {
             "name": "Tartaglia",
             "lvl": 90,
             "constellation": 0,
-            "element": "hydro",
-            "mini-pic": "https://static.wikia.nocookie.net/gensin-impact/images/5/53/Character_Tartaglia_Thumb.png"
+            "element": "hydro"
         },
         {
             "name": "Ganyu",
             "lvl": 90,
             "constellation": 0,
-            "element": "cryo",
-            "mini-pic": "https://static.wikia.nocookie.net/gensin-impact/images/0/0a/Character_Ganyu_Thumb.png"
+            "element": "cryo"
         },
         {
             "name": "Ayaka",
             "lvl": 90,
             "constellation": 0,
-            "element": "cryo",
-            "mini-pic": "https://static.wikia.nocookie.net/gensin-impact/images/f/fd/Character_Kamisato_Ayaka_Thumb.png"
+            "element": "cryo"
         },
         {
             "name": "Raiden",
             "lvl": 90,
             "constellation": 0,
-            "element": "electro",
-            "mini-pic": "https://static.wikia.nocookie.net/gensin-impact/images/5/52/Character_Raiden_Shogun_Thumb.png"
+            "element": "electro"
         },
         {
             "name": "Diluc",
             "lvl": 90,
             "constellation": 1,
-            "element": "pyro",
-            "mini-pic": "https://static.wikia.nocookie.net/gensin-impact/images/0/02/Character_Diluc_Thumb.png"
+            "element": "pyro"
         },
         {
             "name": "Bennett",
             "lvl": 90,
             "constellation": 5,
-            "element": "pyro",
-            "mini-pic": "https://static.wikia.nocookie.net/gensin-impact/images/7/7b/Character_Bennett_Thumb.png"
+            "element": "pyro"
         },
         {
             "name": "Keqing",
             "lvl": 90,
             "constellation": 0,
-            "element": "electro",
-            "mini-pic": "https://static.wikia.nocookie.net/gensin-impact/images/0/06/Character_Keqing_Thumb.png"
+            "element": "electro"
         },
         {
             "name": "Qiqi",
             "lvl": 80,
             "constellation": 1,
-            "element": "cryo",
-            "mini-pic": "https://static.wikia.nocookie.net/gensin-impact/images/d/d5/Character_Qiqi_Thumb.png"
+            "element": "cryo"
         },
         {
             "name": "Xiangling",
             "lvl": 80,
             "constellation": 6,
-            "element": "pyro",
-            "mini-pic": "https://static.wikia.nocookie.net/gensin-impact/images/a/a0/Character_Xiangling_Thumb.png"
+            "element": "pyro"
         },
         {
             "name": "Xingqiu",
             "lvl": 80,
             "constellation": 6,
-            "element": "hydro",
-            "mini-pic": "https://static.wikia.nocookie.net/gensin-impact/images/4/4a/Character_Xingqiu_Thumb.png"
+            "element": "hydro"
+        },
+        {
+            "name": "Ningguang",
+            "lvl": 80,
+            "constellation": 6,
+            "element": "geo"
+        },
+        {
+            "name": "Sucrose",
+            "lvl": 80,
+            "constellation": 6,
+            "element": "anemo"
+        },
+        {
+            "name": "Chongyun",
+            "lvl": 80,
+            "constellation": 6,
+            "element": "cryo"
+        },
+        {
+            "name": "Fischl",
+            "lvl": 80,
+            "constellation": 6,
+            "element": "electro"
+        },
+        {
+            "name": "Beidou",
+            "lvl": 80,
+            "constellation": 5,
+            "element": "electro"
+        },
+        {
+            "name": "Razor",
+            "lvl": 80,
+            "constellation": 6,
+            "element": "electro"
+        },
+        {
+            "name": "YunJin",
+            "lvl": 20,
+            "constellation": 6,
+            "element": "geo"
+        },
+        {
+            "name": "Noelle",
+            "lvl": 70,
+            "constellation": 6,
+            "element": "geo"
+        },
+        {
+            "name": "Rosaria",
+            "lvl": 20,
+            "constellation": 6,
+            "element": "cryo"
+        },
+        {
+            "name": "Yanfei",
+            "lvl": 20,
+            "constellation": 6,
+            "element": "pyro"
         }
     ]
 }

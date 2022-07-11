@@ -53,6 +53,60 @@
             "lvl": 90, 
             "refinement": 1,
             "equipped": "Diluc"
+        },
+        {
+            "name": "the_flute",
+            "lvl": 90,
+            "refinement": 3,
+            "equipped": "Jean"
+        },
+        {
+            "name": "fading_twilight",
+            "lvl": 1,
+            "refinement": 5,
+            "equipped": "None"
+        },
+        {
+            "name": "windblume_ode",
+            "lvl": 1,
+            "refinement": 1,
+            "equipped": "None"
+        },
+        {
+            "name": "dodoco_tales",
+            "lvl": 70,
+            "refinement": 5,
+            "equipped": "Yanfei"
+        },
+        {
+            "name": "the_black_sword",
+            "lvl": 90,
+            "refinement": 1,
+            "equipped": "Qiqi"
+        },
+        {
+            "name": "amenoma_kageuchi",
+            "lvl": 90,
+            "refinement": 1,
+            "equipped": "Ayaka"
+        },
+        {
+            "name": "cinnabar_spindle",
+            "lvl": 90,
+            "refinement": 5,
+            "equipped": "Albedo"
+        },
+        {
+            "name": "luxurious_sea_lord",
+            "lvl": 90,
+            "refinement": 5,
+            "equipped": "None"
+        },
+        {
+            "name": "the_stringless",
+            "lvl": 90,
+            "refinement": 5,
+            "equipped": "Fischl"
         }
     ]
 }

@@ -4,16 +4,8 @@
             info: Object
         },
         data(){
-            let className = {
-                "anemo"  : "bg-anemo",
-                "geo"    : "bg-geo",
-                "cryo"   : "bg-cryo",
-                "pyro"   : "bg-pyro",
-                "electro": "bg-electro",
-                "hydro"  : "bg-hydro",
-            }
             return {
-                backgroundPic: className[this.info.element],
+                bg_image_url: "../src/assets/elements/" + this.info.element + ".svg",
                 selected: false
             }
         },
@@ -28,7 +20,7 @@
 <template>
     <div
         class="bg-center bg-no-repeat"
-        :class="backgroundPic"
+        :style="'background-image: url(\'' + bg_image_url + '\');'"
         @click="toggleSelected">
         <div 
             class=" font-sans
@@ -46,7 +38,7 @@
                 </p>
             </div>
 
-            <img :src="info['mini-pic']" class="aspect-square">
+            <img :src="'../src/assets/character_icons/' + info.name + '.webp'" class="aspect-square">
         </div>
     </div>
     
