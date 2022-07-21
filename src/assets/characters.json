@@ -143,6 +143,18 @@
             "lvl": 20,
             "constellation": 6,
             "element": "pyro"
+        },
+        {
+            "name": "Kazuha",
+            "lvl": 90,
+            "constellation": 0,
+            "element": "anemo"
+        },
+        {
+            "name": "Heizou",
+            "lvl": 70,
+            "constellation": 0,
+            "element": "anemo"
         }
     ]
 }
